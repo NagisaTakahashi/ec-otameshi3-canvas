@@ -1,5 +1,6 @@
-// alert(1111);
+//★このJSファイルでは、カラー描画関連を記述★
 
+// alert(1111);
 
 
 //以下、カラーを表示分けするための配列定義
@@ -14,7 +15,7 @@ var color_list= [
 ];
 
 
-
+//上記のカラー定義から、カラーのサムネイルと、カラー名表記に代入して画面上で表示
 for( let A = 0 ; A < color_list.length ; A ++ ){
   $(`#color_${color_list[A].colornum}`).css("background-color",`#${color_list[A].color_code}`);
   $(`#colorname_${color_list[A].colornum}`).text(color_list[A].colorname);
