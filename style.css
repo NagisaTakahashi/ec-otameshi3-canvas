@@ -1,7 +1,6 @@
 /* -------body--------- */
 
 body{
-  background-color:#fff;
   margin: 0;
   /* -webkit-appearance: none; */
   font-family: 'mr-eaves-modern', sans-serif;
@@ -159,7 +158,7 @@ canvas{
 
 #main_canvas1 {
   /* mix-blend-mode: difference; これいる？あとで確認 multipfy?*/ 
-  
+  /* mix-blend-mode: multiply;  */
 }
 
 
