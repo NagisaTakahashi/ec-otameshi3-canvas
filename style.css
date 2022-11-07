@@ -140,11 +140,28 @@ text-align: center; */
 }
 
 .main_canvas_wrapper{
-  /* height: calc(100vh - 326px); /* -326pxにする*/
-  /* object-fit: cover;  */ 
-  border:solid 0.5px #BEBEBE;
-  margin: 1vh 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 346px;
+  height: 570px;
+  max-height: calc(100vh - 326px);
+  object-fit: cover;
+  border: solid 0.5px #BEBEBE;
+  margin: 1vh auto;
 }
+
+canvas{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#main_canvas1 {
+  /* mix-blend-mode: difference; これいる？あとで確認 multipfy?*/ 
+  
+}
+
 
 
 
